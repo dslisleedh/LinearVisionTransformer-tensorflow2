@@ -20,7 +20,7 @@ FFN들을 일종의 convolution 연산으로 해석할 수 있음.
 MLP-Mixer는 새로운 구조를 제안했다면, 본 논문은 단순히 ViT에서 SA만 FFN으로 대체했다는 느낌이강함.
 
 
-MLP-Mixer에서는 GAP로 토큰간의 평균을 가져왔다면, 본 모델에서는 CLS token을 사용한 점에서 이런 인상을 받았음.
+MLP-Mixer에서는 GAP로 토큰간의 평균을 가져와 분류를 하였지만, 본 모델에서는 CLS token을 사용한 점에서 이런 인상을 받았음.
 
 LearnedPositionalEncoding에 대해 공부해야할듯.
 </h5>
