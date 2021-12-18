@@ -20,7 +20,12 @@ FFN들을 일종의 convolution 연산으로 해석할 수 있음.
 MLP-Mixer는 새로운 구조를 제안했다면, 본 논문은 단순히 ViT에서 SA만 FFN으로 대체했다는 느낌이강함.
 
 
-MLP-Mixer에서는 GAP로 토큰간의 평균을 가져와 분류를 하였지만, 본 모델에서는 CLS token을 사용한 점에서 이런 인상을 받았음.
-
-LearnedPositionalEncoding에 대해 공부해야할듯.
+MLP-Mixer에서는 GAP로 토큰간의 평균을 가져와 분류를 하였지만, 본 모델에서는 CLS token을 사용한 점에서 이런 인상을 받았음.  
+  
+  
+Learned Positional Embedding이란, 그냥 normal distribution을 더해주고 이것이 Positional 정보를 학습하게 만드는것인데, 실제로 크게 효과가 없다는 말도 있고 결과를 찍어보면 Positional ㅈ어보를 배운것일까?라는 생각이 든다.  
+  
+![LPE](https://github.com/dslisleedh/LinearVisionTransformer-tensorflow2/blob/master/LearnedPositionalEmbedding_Heatmap.png)
 </h5>
+
+
